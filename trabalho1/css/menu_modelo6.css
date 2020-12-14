@@ -1,0 +1,49 @@
+@charset  "UTF-8" ;
+/ * Estilização do menu * /
+# menu {
+    display : bloco;
+} a
+# menu  ul {
+    estilo de lista : nenhum;
+    transformação de texto : maiúsculas;
+    posição : relativa;
+    topo : 10 px ;
+    esquerda : -40px;
+}
+# menu li {
+    / *
+    Compatibilidade obtida em:
+    http://expressprefixr.herokuapp.com/
+    * /
+    display : bloco embutido;
+    cor de fundo : # a5d6a5 ;
+    borda : 1 px sólido # cccccc ;
+    -webkit-border-radius : 10 px ;
+    -moz-border-radius : 10 px ;
+    -ms-border-radius : 10 px ;
+    -o-border-radius : 10 px ;
+    raio da borda : 10 px ;
+    -webkit-box-shadow : 5 px  5 px  5 px  # 003100 ;
+    -moz-box-shadow : 5 px  5 px  5 px  # 003100 ;
+    -ms-box-shadow : 5 px  5 px  5 px  # 003100 ;
+    -o-box-shadow : 5 px  5 px  5 px  # 003100 ;
+    sombra da caixa : 5 px  5 px  5 px  # 003100 ;
+    preenchimento : 5 px  10 px  5 px  10 px ;
+    margem : 2 px ;
+}
+# menu  li : hover {
+    cor de fundo : # 8dcb8d ;
+    peso da fonte : mais negrito;
+    cor : # ffffff ;
+}
+# menu  h1 {
+    display : nenhum;
+}
+# menu  a {
+    cor : # 000000 ;
+    decoração de texto : nenhum;
+}
+# menu  a : hover {
+    cor : # 004600 ;
+    / * decoração de texto: sublinhado; * /
+}
